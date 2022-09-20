@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  padding: 10px;
+  width: 50%;
+  list-style: none;
+}
+
+.postTitle {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.formInput {
+  margin-right: 10px;
+}
