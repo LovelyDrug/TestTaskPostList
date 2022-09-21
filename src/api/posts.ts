@@ -1,5 +1,5 @@
 import { data } from "../fetchData"
-import { Post, PostData } from "../types/Post";
+import { Post, PostData, PostWithComment } from "../types/Post";
 
 export const getPosts = () => {
   return data.get<Post[]>('/posts');

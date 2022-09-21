@@ -4,7 +4,7 @@ export interface Post {
   body: string,
 }
 export interface PostWithComment extends Post {
-  comment: string,
+  comment: Comment[],
 }
 
 export type PostData = Omit<Post, 'id'>;

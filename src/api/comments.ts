@@ -12,7 +12,3 @@ export const createComment = (commentData: CommentData) => {
 export const deleteComment = (commentId: number) => {
   return data.delete<Comment>(`/comments/${commentId}`);
 }
-
-export const updateComment = (commentId: number, newCommentData: CommentData) => {
-  return data.put<Comment>(`/comments/${commentId}`, newCommentData);
-}
